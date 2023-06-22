@@ -1,18 +1,14 @@
-# typescript-react-chrome-extension
+# leetcode-question-finder
 
-![build](https://github.com/mikezzb/typescript-react-chrome-extension/workflows/build/badge.svg)
+![build](https://github.com/mikezzb/leetcode-question-finder/workflows/build/badge.svg)
 
+Jump to a LeetCode question using its question number.
+
+![](.github/demo.png)
 
 ## Prerequisites
 
 * [node.js](https://nodejs.org/) + [yarn](https://yarnpkg.com/)
-
-## Project Structure
-
-* src/typescript: TypeScript source files
-* src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
 
 ## Setup
 
@@ -34,15 +30,8 @@ yarn build
 yarn watch
 ```
 
-### Visual Studio Code
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
-
-## Load extension to chrome
-
-Load `dist` directory
-
 ## Test
-`npx jest` or `yarn test`
+
+```
+yarn test
+```

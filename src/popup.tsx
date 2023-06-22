@@ -28,7 +28,7 @@ const Popup: FC = () => {
           <input
             className="question-input"
             autoFocus
-            placeholder="Input question number"
+            placeholder="Type question number..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />

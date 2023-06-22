@@ -2,7 +2,7 @@
   "manifest_version": 3,
 
   "name": "LeetCode Question Finder",
-  "description": "Find LeetCode question by question number.",
+  "description": "Jump to a LeetCode question using its question number.",
   "version": "1.0",
 
   "action": {
