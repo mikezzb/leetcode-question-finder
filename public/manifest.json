@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
 
-  "name": "My Chrome Extension",
-  "description": "Add your description here",
+  "name": "LeetCode Question Finder",
+  "description": "Find LeetCode question by question number.",
   "version": "1.0",
 
   "action": {
